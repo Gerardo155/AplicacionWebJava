@@ -56,21 +56,21 @@ public class ClienteController extends HttpServlet {
             
 
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body style='background-color:beige'>");
      
-            out.println("<h1>DATOS DEL CLIENTE REGISTRADO</h1>");
-            out.println("<h2>Codigo del cliente</h2>");
-            out.println("<h3>"+ clientemodell.getCodigo()  +"</h3>");
-            out.println("<h2>Nombre del cliente</h2>");
-            out.println("<h3>"+ clientemodell.getNombre()  +"</h3>");
-            out.println("<h2>Apellido del cliente</h2>");
-            out.println("<h3>"+ clientemodell.getApellido()  +"</h3>");
-            out.println("<h2>Direccion del cliente</h2>");
-            out.println("<h3>"+ clientemodell.getDireccion()  +"</h3>");
-            out.println("<h2>Correo del cliente</h2>");
-            out.println("<h3>"+ clientemodell.getCorreo()  +"</h3>");
-            out.println("<h2>Telefono del cliente</h2>");
-            out.println("<h3>"+ clientemodell.getTelefono()  +"</h3>");
+            out.println("<h1 style='text-align:center;color:coral'>DATOS DEL CLIENTE REGISTRADO</h1>");
+            out.println("<h2 style='text-align:center; color:darkslategray'>Codigo del cliente</h2>");
+            out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getCodigo()  +"</h3>");
+            out.println("<h2 style='text-align:center; color:darkslategray'>Nombre del cliente</h2>");
+            out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getNombre()  +"</h3>");
+            out.println("<h2 style='text-align:center; color:darkslategray'>Apellido del cliente</h2>");
+            out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getApellido()  +"</h3>");
+            out.println("<h2 style='text-align:center; color:darkslategray'>Direccion del cliente</h2>");
+            out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getDireccion()  +"</h3>");
+            out.println("<h2 style='text-align:center; color:darkslategray'>Correo del cliente</h2>");
+            out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getCorreo()  +"</h3>");
+            out.println("<h2 style='text-align:center; color:darkslategray'>Telefono del cliente</h2>");
+            out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getTelefono()  +"</h3>");
           
             
          
