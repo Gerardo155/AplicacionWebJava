@@ -53,7 +53,8 @@ public class ClienteController extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet ClienteController</title>");   
             
-            
+           
+             
 
             out.println("</head>");
             out.println("<body style='background-color:beige'>");
@@ -72,6 +73,7 @@ public class ClienteController extends HttpServlet {
             out.println("<h2 style='text-align:center; color:darkslategray'>Telefono del cliente</h2>");
             out.println("<h3 style='text-align:center; color:seagreen'>"+ clientemodell.getTelefono()  +"</h3>");
           
+            out.println("<a href=\"http://localhost:8090/Andy0909178512/ \" >VOLVER AL INICIO</a>");
             
          
             out.println("</body>");
