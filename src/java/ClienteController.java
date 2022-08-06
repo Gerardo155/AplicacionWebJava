@@ -57,7 +57,7 @@ public class ClienteController extends HttpServlet {
              
 
             out.println("</head>");
-            out.println("<body style='background-color:beige'>");
+            out.println("<body background=\"https://img.freepik.com/fotos-premium/fondo-beige-monocromatico-minimo_23-2148667764.jpg?w=2000\">");
      
             out.println("<h1 style='text-align:center;color:coral'>DATOS DEL CLIENTE REGISTRADO</h1>");
             out.println("<h2 style='text-align:center; color:darkslategray'>Codigo del cliente</h2>");
