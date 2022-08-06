@@ -52,7 +52,9 @@ public class ClienteController extends HttpServlet {
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet ClienteController</title>");   
-           
+            
+            
+
             out.println("</head>");
             out.println("<body>");
      
